@@ -4,7 +4,7 @@
 **Step 1: Generate the training data**  
 *Example:*  
 ```bash
-python data/kuka14_prm.py
+python data/generate_env_prm.py
 ```
 
 **Step 2: Train the Selector**
@@ -17,6 +17,11 @@ python train_selector.py
 
 ```bash
 python train_heuristic.py
+```
+
+**Step 4: Evaluation**
+```bash
+python main.py
 ```
 
 ## Acknowledgement
